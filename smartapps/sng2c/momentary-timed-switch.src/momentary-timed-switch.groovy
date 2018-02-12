@@ -19,9 +19,9 @@ definition(
     author: "김현승",
     description: "Simple Momentary Timed Switch",
     category: "My Apps",
-    iconUrl: "https://s3.amazonaws.com/smartapp-icons/Convenience/Cat-Convenience.png",
-    iconX2Url: "https://s3.amazonaws.com/smartapp-icons/Convenience/Cat-Convenience@2x.png",
-    iconX3Url: "https://s3.amazonaws.com/smartapp-icons/Convenience/Cat-Convenience@2x.png")
+    iconUrl: "https://raw.githubusercontent.com/sng2c/MomentaryTimedSwitch/master/smartapps/sng2c/momentary-timed-switch.src/low.png",
+    iconX2Url: "https://raw.githubusercontent.com/sng2c/MomentaryTimedSwitch/master/smartapps/sng2c/momentary-timed-switch.src/medium.png",
+    iconX3Url: "https://raw.githubusercontent.com/sng2c/MomentaryTimedSwitch/master/smartapps/sng2c/momentary-timed-switch.src/high.png")
 
 
 preferences {
