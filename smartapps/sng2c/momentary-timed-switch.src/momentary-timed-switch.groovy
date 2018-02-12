@@ -16,7 +16,7 @@
 definition(
     name: "Momentary Timed Switch",
     namespace: "sng2c",
-    author: "김현승",
+    author: "sng2c",
     description: "Simple Momentary Timed Switch",
     category: "My Apps",
     iconUrl: "https://raw.githubusercontent.com/sng2c/MomentaryTimedSwitch/master/smartapps/sng2c/momentary-timed-switch.src/low.png",
