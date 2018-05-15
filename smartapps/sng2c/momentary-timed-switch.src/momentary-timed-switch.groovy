@@ -52,7 +52,7 @@ def initialize() {
 }
 
 def switchOnDetectedHandler(evt) {
-    log.debug "switchOnDetectedHandler called: $evt"
+    log.debug "switch On"
 	runIn(seconds, turnOffSwitch)
 }
 
