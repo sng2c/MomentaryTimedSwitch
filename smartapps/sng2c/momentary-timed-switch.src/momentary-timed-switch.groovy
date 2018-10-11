@@ -41,23 +41,23 @@ def installed() {
 
 def updated() {
 	log.debug "Updated with settings: ${settings}"
-
 	unsubscribe()
 	initialize()
 }
 
 def initialize() {
 	// TODO: subscribe to attributes, devices, locations, etc.
-    subscribe(theswitch, "switch.on", switchOnDetectedHandler)
+	subscribe(theswitch, "switch.on", switchOnDetectedHandler)
 }
 
 def switchOnDetectedHandler(evt) {
-    log.debug "switch On"
+	log.debug "switch On"
 	runIn(seconds, turnOffSwitch)
+	runIn(seconds+1, turnOffSwitch)
 }
 
 def turnOffSwitch(){
-    log.debug "turnOff Switch"
+	log.debug "turnOff Switch"
 	theswitch.off()
 }
 
